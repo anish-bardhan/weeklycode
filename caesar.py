@@ -1,7 +1,7 @@
 def caesar(string, shift):
+    #create
     alpha = list("abcdefghijklmnopqrstuvwxyz")
     ALPHA = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
-    numbers = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26)
     dictionary1 = {}
     dictionary2 = {}
     dictionary3 = {}
@@ -42,21 +42,9 @@ def caesar(string, shift):
         else:
             new_word.append(letter)
 
-
-
-
     print(''.join(new_word))
 
-
-#caesar("happy az", 2)
-
-
-
-
-
-
-
-
+caesar("happy am i!", 1)
 
 def decrypt(string, shift):
     alpha = list("abcdefghijklmnopqrstuvwxyz")
@@ -88,4 +76,4 @@ def decrypt(string, shift):
             new_word.append(letter)
     print(''.join(new_word))
 
-decrypt("ibqqz", 25)
+decrypt("ibqqz bn j!", 1)
